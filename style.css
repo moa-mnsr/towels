@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+@import url(reset.css);
+
+
+
+body {
+    background-color: #F7F7F7;
+    font-family: "Archivo", sans-serif;
+    color: #262626;
+    font-size: 2vw;
+}
+
+
+main {
+    width: 100vw;
+    display: flex;
+}
+
+section {
+    display: flex;
+
+}
+
+section.panel-1 {
+    width: 40vw;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+
+div.nav-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    font-weight: 900;
+    background-color: purple;
+
+}
+
+nav div {
+    background-color: teal;   
+
+}
+
+nav div.you-are-here {
+        border-bottom: solid 2px red;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    width: fit-content;
+    border-bottom: solid 2px red;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+nav a:hover {
+    border-bottom: solid 2px blue;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+section.panel-2 {
+    overflow: scroll;
+    width: 77vw;
+    border-left: solid 2px #262626;
+    display: flex;
+    justify-content: center;
+    padding-top: 50vh;
+}
+
+body#deflect-1 section.panel-2 {
+    background-color: yellow;
+}
+
+div.textbox {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: solid 2px #262626;
+}
+
+
+div.stanza {
+    margin-bottom: 35vh;
+}
+
+div.line {
+    font-size: 5vw;
+}
+    
