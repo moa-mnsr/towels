@@ -125,7 +125,7 @@ section.panel-1 {
     width: 100vw;
     justify-content: center;
     flex-direction: column;
-    height: auto;
+    height: 1em;
     margin: 2em 0;
     position: sticky;
     top: 20px;
