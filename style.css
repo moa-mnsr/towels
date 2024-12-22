@@ -72,7 +72,7 @@ nav a.poem-page {
 section.panel-2 {
     /* border-left: solid 2px #262626;*/
     overflow-y: scroll;
-    width: 77vw;
+    /*width: 77vw;*/
     display: flex;
     justify-content: center;
     padding-top: 50vh;
