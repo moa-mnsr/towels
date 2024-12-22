@@ -41,7 +41,6 @@ nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    font-weight: 900;
     line-height: 1;
     font-size: 2vw;
 }
@@ -49,7 +48,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    border-bottom: 2px solid;
+    /* border-bottom: 2px solid; */
     padding-bottom: 2px;
 
 }
@@ -58,20 +57,20 @@ nav a {
 
 nav a.you-are-here {
     color: #262626;
-    border-bottom: 2px solid #F7F7F7;
+    /* border-bottom: 2px solid #F7F7F7; */
 
 }
 
 nav a.poem-page {
     text-decoration: none;
-    color: blue;
+    color: #8490ad;
     width: fit-content;
 
 }
 
 
 section.panel-2 {
-    border-left: solid 2px #262626;
+    /* border-left: solid 2px #262626;*/
     overflow-y: scroll;
     width: 77vw;
     display: flex;
@@ -80,10 +79,11 @@ section.panel-2 {
 }
 
 
-
+/*
 body#index section.panel-2 {
     background-color: silver;
 }
+
 
 body#deflect-1 section.panel-2 {
     background-color: yellow;
@@ -103,6 +103,7 @@ div.textbox {
     justify-content: flex-start;
 }
 
+*/
 
 div.stanza {
     margin-bottom: 35vh;
@@ -113,3 +114,32 @@ div.line {
     font-size: 5vw;
 }
     
+
+@media screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+
+
+section.panel-1 {
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    margin: 2em 0;
+    position: sticky;
+    top: 2em;
+ 
+
+
+}
+
+nav {
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2.5vw;
+}
+ nav a {
+    padding: 1em;
+ }
+}
