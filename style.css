@@ -79,31 +79,6 @@ section.panel-2 {
 }
 
 
-/*
-body#index section.panel-2 {
-    background-color: silver;
-}
-
-
-body#deflect-1 section.panel-2 {
-    background-color: yellow;
-}
-
-body#deflect-2 section.panel-2 {
-    background-color: turquoise;
-}
-
-body#deflect-3 section.panel-2 {
-    background-color: tomato;
-}″
-
-div.textbox {
-    flex-direction: column;
-    display: flex;
-    justify-content: flex-start;
-}
-
-*/
 
 div.stanza {
     margin-bottom: 35vh;
@@ -125,13 +100,7 @@ section.panel-1 {
     width: 100vw;
     justify-content: center;
     flex-direction: column;
-    height: 1em;
-    margin: 2em 0;
-    position: sticky;
-    top: 20px;
- 
-
-
+  
 }
 
 nav {
@@ -142,4 +111,9 @@ nav {
  nav a {
     padding: 1em;
  }
+
+ div.line {
+    font-size: 7vw;
 }
+}
+
